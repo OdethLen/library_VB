@@ -43,7 +43,7 @@
     End Sub
 
     Public Overrides Function ToString() As String
-        Return "Name: " & _name & " " & _lastname & " Date: " & _date.ToString()
+        Return "Name : " & _name & " " & _lastname & " Date: " & _date.ToString()
     End Function
 
 End Class

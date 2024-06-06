@@ -21,9 +21,10 @@ Public Class Menu
         Me.Hide()
     End Sub
 
-    ' Método estático 
+    ' Método estáticoccc 
     Public Shared Sub ShowWelcomeMessage()
         MessageBox.Show("Welcome!!", "Welcome", MessageBoxButtons.OK, MessageBoxIcon.Information)
+
     End Sub
 
     Private Sub btnFrmComputer_Click(sender As Object, e As EventArgs) Handles btnFrmComputer.Click
